@@ -2,7 +2,7 @@
 
 # 🧠 GPT From Scratch
 
-### A Decoder-Only Transformer Language Model in PyTorch
+### A Decoder-Only Transformer Language Model in Jupyter Notebooks
 
 <p align="center">
 
@@ -13,7 +13,7 @@
 
 </p>
 
-An educational implementation of a **GPT-style decoder-only Transformer** in **PyTorch**, covering the complete pipeline from text processing and attention mechanisms to language model pretraining, fine-tuning, and autoregressive text generation.
+An educational notebook series for building a **GPT-style decoder-only Transformer** in **PyTorch**, covering the complete pipeline from text processing and attention mechanisms to language model pretraining, fine-tuning, and autoregressive text generation.
 
 </div>
 
@@ -23,7 +23,7 @@ An educational implementation of a **GPT-style decoder-only Transformer** in **P
 
 This repository implements the fundamental components required to build a GPT-style language model from scratch.
 
-The implementation progresses through tokenization, attention mechanisms, Transformer decoder blocks, language model pretraining, and downstream fine-tuning, with each script focusing on a specific stage of the pipeline.
+The implementation progresses through tokenization, attention mechanisms, Transformer decoder blocks, language model pretraining, and downstream fine-tuning, with each notebook focusing on a specific stage of the pipeline.
 
 ---
 
@@ -43,14 +43,14 @@ The implementation progresses through tokenization, attention mechanisms, Transf
 
 ## 📂 Repository Structure
 
-| Script | Description |
+| Notebook | Description |
 |---------|-------------|
-| `01-Working_with_Text_Data.py` | Text preprocessing, tokenization, chunking, and dataloaders |
-| `02-Coding_Attention_Mechanisms.py` | Self-attention, causal attention, and multi-head attention |
-| `03-Implementing_a_GPT_Model_from_Scratch.py` | GPT architecture, Transformer blocks, and text generation |
-| `04-Pretraining_on_Unlabeled_Data.py` | Language model pretraining and evaluation |
-| `05-Finetuning_for_Text_Classification.py` | Fine-tuning GPT for text classification |
-| `06-Finetuning_to_Follow_Instructions.py` | Instruction fine-tuning and supervised learning |
+| `01-Working_with_Text_Data.ipynb` | Text preprocessing, tokenization, chunking, and dataloaders |
+| `02-Coding_Attention_Mechanisms.ipynb` | Self-attention, causal attention, and multi-head attention |
+| `03-Implementing_a_GPT_Model_from_Scratch.ipynb` | GPT architecture, Transformer blocks, and text generation |
+| `04-Pretraining_on_Unlabeled_Data.ipynb` | Language model pretraining and evaluation |
+| `05-Finetuning_for_Text_Classification.ipynb` | Fine-tuning GPT for text classification |
+| `06-Finetuning_to_Follow_Instructions.ipynb` | Instruction fine-tuning and supervised learning |
 
 ---
 
@@ -87,23 +87,13 @@ Install the required dependencies:
 pip install -r requirements.txt
 ```
 
-Run the scripts sequentially to follow the complete implementation pipeline:
+Launch Jupyter and open the notebooks sequentially to follow the complete implementation pipeline:
 
 ```bash
-python 01-Working_with_Text_Data.py
-
-python 02-Coding_Attention_Mechanisms.py
-
-python 03-Implementing_a_GPT_Model_from_Scratch.py
-
-python 04-Pretraining_on_Unlabeled_Data.py
-
-python 05-Finetuning_for_Text_Classification.py
-
-python 06-Finetuning_to_Follow_Instructions.py
+jupyter lab
 ```
 
-Each script can also be executed independently to explore a specific component of the implementation.
+Each notebook can also be executed independently to explore a specific component of the implementation.
 
 ---
 
@@ -119,12 +109,5 @@ Each script can also be executed independently to explore a specific component o
 - Classification Fine-Tuning
 - Instruction Fine-Tuning
 - Autoregressive Text Generation
-
----
-
-## 📚 References
-
-- Attention Is All You Need (2017)
-- Language Models are Unsupervised Multitask Learners (GPT-2)
 
 ---
